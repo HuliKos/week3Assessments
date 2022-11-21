@@ -31,8 +31,72 @@ a:visited {
 
 input {
 	display: block;
+	border: solid black;
 }
 
 img {
 	max-width: 300px;
 }
+
+.ckDes {
+	float: left;
+	margin-right: 10px;
+}
+
+#profile {
+	width: 105px;
+	height: 105px;
+	border-radius: 50%;
+	position: relative;
+	top: 3px;
+	left: 0px;
+}
+
+#s1 {
+	display: flex;
+	flex-direction: row;
+
+}
+
+h1 {
+	font-size: medium;
+	margin-right: 30px;
+}
+
+h2 {
+	margin-bottom: 0px;
+}
+
+button {
+	height: 20px;
+	margin-top: 9px;
+}
+
+.section {
+	Color: rgb(96, 65, 18);
+	background-color: rgb(233, 217, 193);
+	font-size: small;
+	border: 2px solid orange;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	padding-left: 15px;
+}
+
+#fav {
+	font-size: small;
+	color:rgb(60, 58, 58);
+	margin: 0px;
+}
+
+.buttonToChange {
+	background-color: yellow;
+	height: 30px;
+	width: 163px;
+	color: rgb(23, 3, 1);
+	font-weight: 500;
+}
+
+content > h1 > p {
+	font-size: 3px;
+}
+
